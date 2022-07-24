@@ -42,6 +42,10 @@ header {
     border-radius: 10px;
 }
 
+.inicioIndex:hover {
+    background-color: #662612;
+}
+
 .inicioDesayunos {
     color: #f39200;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,6 +55,10 @@ header {
     padding: 10px;
     margin: 10px 10px 1;
     border-radius: 10px;
+}
+
+.inicioDesayunos:hover {
+    background-color: #662612;
 }
 
 .inicioComida {
@@ -64,6 +72,10 @@ header {
     border-radius: 10px;
 }
 
+.inicioComida:hover {
+    background-color: #662612;
+}
+
 .iniciomenudia {
     color: #f39200;
     font-family: Arial, Helvetica, sans-serif;
@@ -73,6 +85,10 @@ header {
     padding: 10px;
     margin: 10px 10px 1;
     border-radius: 10px;
+}
+
+.iniciomenudia:hover {
+    background-color: #662612;
 }
 
 .inicioOrden {
@@ -86,6 +102,10 @@ header {
     border-radius: 10px;
 }
 
+.inicioOrden:hover {
+    background-color: #662612;
+}
+
 .inicioPendulo {
     color: #f39200;
     font-family: Arial, Helvetica, sans-serif;
@@ -95,6 +115,10 @@ header {
     padding: 10px;
     margin: 10px 10px 1;
     border-radius: 10px;
+}
+
+.inicioPendulo:hover {
+    background-color: #662612;
 }
 
 .inicioFooter {
@@ -108,6 +132,10 @@ header {
     border-radius: 10px;
 }
 
+.inicioFooter:hover {
+    background-color: #662612;
+}
+
 
 .nosotros {
     font-family: Arial, Helvetica, sans-serif;
@@ -119,6 +147,7 @@ header {
 
 .contenedorNosotros {
     background-color: #fcbe6b;
+    background: linear-gradient(#fcbe6b, #fcb36b);
     padding: 20px;
     margin: 50px;
     font-family: Arial, Helvetica, sans-serif;
@@ -134,12 +163,17 @@ header {
     top: 0;
     right: 0;
     background-color: #5bbdb3;
+    background: linear-gradient(#5bbdb3, #5bbd9b);
     width: 100px;
     height: 50px;
     padding: 20px 20px 20px 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #683c11;
     border-radius: 0px 0px 10px 10px;
+}
+
+.cajaUno:hover {
+    background: linear-gradient(#5bbdff, #5b83ff);
 }
 
 footer {
@@ -172,6 +206,8 @@ body {
     background-color: #fcbe6b;
     padding: 20px;
     margin: 50px;
+    width: 600px;
+    height: 130px;
     font-family: Arial, Helvetica, sans-serif;
     color: #683c11;
     border-radius: 10px;
